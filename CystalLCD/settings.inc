@@ -1,5 +1,5 @@
 [Refresh]
-Command=/!RainmeterRefresh Glasses\GlassesSystem
+Command=/!RainmeterRefresh Cystal-LCD\CystalLCD
 [Color]
 Hex=0xFFFFFF
 [Font]
