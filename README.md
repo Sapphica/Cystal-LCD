@@ -32,7 +32,17 @@ It’s built to sit under the main display and show **everything that actually m
 - Per-drive SMART health, lifespan, and temperature  
 - System uptime, RAM usage, top CPU process
 
-All of this is driven through **Rainmeter + HWiNFO + MSI Afterburner + plugins**, wired together by a single `CrystalTelemetry.ini` skin.
+All of this is driven through **Rainmeter + HWiNFO + MSI Afterburner + plugins**, wired together by a single 'CrystalTelemetry.ini' and 'GIF.ini'.
+
+---
+
+## Notes
+
+- **This skin is tuned for a specific hardware setup and resolution (1920×480).
+- **It can be adapted, but the intent is very much:
+- **“This is my personal glass telemetry cockpit.”
+
+The .ini is intentionally dense: it’s a full subsystem, not a toy widget.
 
 ---
 
@@ -138,7 +148,6 @@ You basically get a **live “what’s eating my CPU” banner** on the LCD.
   - Ready to incorporate CPU power (`CPU_Power`) when you want to flip it back on  
 - Displayed via `TotalPower` meter as:
   - `Power Draw: <watts>`
-
 ---
 
 ## 🧰 Technology Stack
